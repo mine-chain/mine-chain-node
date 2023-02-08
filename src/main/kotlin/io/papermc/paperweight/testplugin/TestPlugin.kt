@@ -8,6 +8,7 @@ import org.bukkit.WorldCreator
 import org.bukkit.event.EventHandler
 import org.bukkit.event.Listener
 import org.bukkit.event.player.PlayerJoinEvent
+import org.bukkit.event.player.PlayerRespawnEvent
 import org.bukkit.plugin.java.JavaPlugin
 import kotlin.time.Duration.Companion.seconds
 
@@ -42,6 +43,11 @@ class TestPlugin : JavaPlugin(), Listener, CoroutineScope {
         logger.info("Player joined: ${event.player.name}")
         event.player.teleport(emptyWorld.spawnLocation)
         event.player.sendMessage("Welcome to the empty world!")
+    }
+
+    @EventHandler
+    fun onRespawn(event: PlayerRespawnEvent) {
+      event.respawnLocation = emptyWorld.spawnLocation
     }
 
     companion object {
