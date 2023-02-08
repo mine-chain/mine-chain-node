@@ -53,6 +53,6 @@ class TestPlugin : JavaPlugin(), Listener, CoroutineScope {
     companion object {
         lateinit var emptyWorld: World
         val ZOMBIE_SPAWN_COMMAND
-            get() = "execute in minecraft:${emptyWorld.name} run summon zombie -1.5 1 -1.5 {PersistenceRequired:1,ArmorItems:[{},{},{},{Count:1,id:golden_helmet}],CustomName:\"\\\"DAY_MOZGI\\\"\"}"
+            get() = "execute in minecraft:${emptyWorld.name} run summon zombie 15 1 15 {PersistenceRequired:1,ArmorItems:[{},{},{},{Count:1,id:golden_helmet}],CustomName:\"\\\"DAY_MOZGI\\\"\"}"
     }
 }
