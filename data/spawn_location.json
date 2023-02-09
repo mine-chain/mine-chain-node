@@ -19,7 +19,7 @@
       },
       {
         "uri": "https://ipfs.io/ipfs/bafybeigupb5xasacbrfas3pfm5vfxzxqik4tfs4y5upvqgpp74okfk4l3u",
-        "type": "unknown"
+        "type": "application/gzip"
       }
     ]
   }
