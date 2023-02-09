@@ -1,0 +1,26 @@
+{
+  "name": "spawn location",
+  "image": "https://ipfs.io/ipfs/bafybeigupb5xasacbrfas3pfm5vfxzxqik4tfs4y5upvqgpp74okfk4l3u",
+  "attributes": [
+    {
+      "trait_type": "trait1",
+      "value": "value1"
+    },
+    {
+      "trait_type": "trait2",
+      "value": "value2"
+    }
+  ],
+  "properties": {
+    "files": [
+      {
+        "uri": "https://ipfs.io/ipfs/bafybeigupb5xasacbrfas3pfm5vfxzxqik4tfs4y5upvqgpp74okfk4l3u",
+        "type": "image/png"
+      },
+      {
+        "uri": "https://ipfs.io/ipfs/bafybeigupb5xasacbrfas3pfm5vfxzxqik4tfs4y5upvqgpp74okfk4l3u",
+        "type": "unknown"
+      }
+    ]
+  }
+}
