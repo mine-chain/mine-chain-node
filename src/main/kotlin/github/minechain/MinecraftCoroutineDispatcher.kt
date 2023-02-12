@@ -1,11 +1,11 @@
-package io.papermc.paperweight.testplugin
+package github.minechain
 
 import kotlinx.coroutines.Runnable
 import org.bukkit.Bukkit
 import kotlin.coroutines.CoroutineContext
 
 class MinecraftCoroutineDispatcher(
-    val plugin: TestPlugin
+    val plugin: MinechainNodePlugin
 ) : kotlinx.coroutines.CoroutineDispatcher() {
     override fun isDispatchNeeded(context: CoroutineContext): Boolean {
         return !plugin.server.isPrimaryThread && plugin.isEnabled

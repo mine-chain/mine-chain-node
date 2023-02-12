@@ -10,7 +10,7 @@ plugins {
 
 group = "io.papermc.paperweight"
 version = "1.0.0-SNAPSHOT"
-description = "Test plugin for paperweight-userdev"
+description = "Minechain node plugin"
 
 java {
     // Configure the java toolchain. This allows gradle to auto-provision JDK 17 on systems that only have JDK 8 installed for example.
@@ -45,7 +45,7 @@ tasks {
 // Configure plugin.yml generation
 bukkit {
     load = BukkitPluginDescription.PluginLoadOrder.POSTWORLD
-    main = "io.papermc.paperweight.testplugin.TestPlugin"
+    main = "github.minechain.MinechainNodePlugin"
     apiVersion = "1.19"
     authors = listOf("Author")
     libraries = listOf(

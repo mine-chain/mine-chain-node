@@ -5,4 +5,4 @@ pluginManagement {
   }
 }
 
-rootProject.name = "paperweight-test-plugin"
+rootProject.name = "github.mine-chain.node-plugin"
